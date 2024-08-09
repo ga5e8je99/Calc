@@ -441,5 +441,7 @@ clickedOper=false;
 document.getElementById("exit").onclick=function () {
     close();
 }
-
+document.getElementById('clear').onclick=function(){
+    window.location.reload();
+}
 
